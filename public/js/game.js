@@ -72,8 +72,6 @@ function create() {
         
     self.physics.add.overlap(self.ship, self.star, function () {
       this.socket.emit('starCollected');
-      self.ship.displayWidth = self.ship.displayWidth+20; 
-	  self.ship.displayHeight = self.ship.displayWidth+2; 
     }, null, self);
   });
 
