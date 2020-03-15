@@ -3,6 +3,7 @@ var config = {
   parent: 'phaser-example',
   width: 800,
   height: 600,
+  backgroundColor: 'rgb( 188, 191, 197 )',
   physics: {
     default: 'arcade',
     arcade: {
